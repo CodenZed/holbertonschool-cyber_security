@@ -1,2 +1,2 @@
 #!/bin/bash
-¼sudo iptables -L -v -n --line-numbers
+sshd -T | grep -Ev /etc/ssh/sshd_config
